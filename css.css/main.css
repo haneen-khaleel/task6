@@ -1,0 +1,59 @@
+body{ background-color: azure;}
+.one{ text-decoration: underline black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{width: 80%; height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+
+
+}
+h2{margin-left: 5px;}
+p{margin-left: 5px;}
+.price-container {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:5px ;
+    
+}
+
+.current-price {
+    color: green;
+    margin-right: 10px;
+}
+
+.original-price {
+    color: red;
+    text-decoration: line-through;}
+
+    .button {
+        display: flex;
+        align-items: center;
+    }
+    .card{     background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+.heart{ border: 2px solid #007bff;
+    color: #007bff;
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center; }
+    .item{float: left;
+    width:22%;
+    border: solid , 2px, #ddd;
+    margin:8px;
+border-radius: 10px;
+}
+.clearfix{clear:left;}
+
+
